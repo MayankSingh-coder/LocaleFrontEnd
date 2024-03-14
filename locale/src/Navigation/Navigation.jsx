@@ -1,6 +1,7 @@
 import React from "react";
 import {nevigation} from './Navigationmenu'
 import { useNavigate } from "react-router-dom";
+import { Button } from "@mui/material";
 
 const Navigation = () => {
 
@@ -22,6 +23,16 @@ const navigate  = useNavigate();
         </div>)
         }
         </div>
+
+        <div className="py-10">
+            <Button
+            sx={{width:"50%",borderRadius:"29px",py:"15px",bgcolor:"blue"}}
+            variant="contained"
+            >
+              Tweet
+            </Button>
+        </div>
+
         </div>
     </div>
 
